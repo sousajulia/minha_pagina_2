@@ -1,0 +1,84 @@
+/* Write some CSS below */
+h2{font-family: sans-serif;}
+body{
+    background-color: rgb(241, 210, 227);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/flor.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+.banner h1 {
+    color: rgb(229, 157, 197);
+    font-family: sans-serif;
+    font-style: bold;
+    
+    font: 45px;
+}
+.banner p {
+    font-family: sans-serif;
+    font-style: bold;
+    color: white;
+    font: 30px
+}
+
+.button-blue{
+    background-color: rgb(229, 157, 197);
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-family: sans-serif;
+}
+.button-blue:hover {
+    background-color: rgb(206, 65, 143);
+    color: white;
+    font-family: sans-serif;
+}
+
+.card-white{
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+}
+.card-white img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .card-white h2 {
+    margin-bottom: 0;
+  }
+  .card-white p {
+    margin-bottom: 0;
+  }
+  .footer {
+    background: rgb(49, 49, 49);
+    text-align: center;
+    padding: 2px 0;
+    font-family: sans-serif;
+  }
+  .cards { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .footer p {
+    color: white;
+  }
